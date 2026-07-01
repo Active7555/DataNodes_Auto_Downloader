@@ -1,25 +1,25 @@
-# 🚀 DataNodes Auto Downloader (Tam Otomatik Tıklayıcı)
+# 🚀 DataNodes Auto Downloader
 
-FitGirl Repacks ve benzeri sitelerden indirilen **DataNodes** bağlantılarındaki zaman kaybettiren 3 aşamalı indirme ekranlarını tamamen otomatik geçen bir Tampermonkey kullanıcı betiğidir (UserScript).
+A Tampermonkey UserScript that automatically bypasses the time-consuming 3-step download screens on **DataNodes** links, commonly found on sites.
 
-## ✨ Özellikler
+## ✨ Features
 
-* **Tam Otonom 3 Aşama:** Sayfadaki "Continue to Download" -> "Free Download" -> "Start Download" butonlarına sizin yerinize sırasıyla tıklar.
-* **Akıllı Sayaç Takibi:** Arka plandaki 5-10 saniyelik bekleme sürelerini kendi sayar ve buton aktifleştiği saniye tıklamayı yapar.
-* **İndirme Yöneticisi Uyumlu:** IDM, FDM (Free Download Manager) veya JDownloader gibi harici indirme programlarıyla kusursuz çalışır. Son indirme dosyasını doğrudan programa paslar.
-* **Toplu İndirme Kolaylığı:** Çok partlı (Örn: 100+ partlık) arşive sahip oyun ve dosyaları indirirken, linkleri fare tekerleğiyle yeni sekmelerde açıp arkanıza yaslanmanız yeterlidir.
+* **Fully Autonomous 3 Steps:** Automatically clicks through the "Continue to Download" -> "Free Download" -> "Start Download" buttons in the correct order.
+* **Smart Timer Tracking:** Detects the background 5-10 second countdowns and clicks the button the exact second it becomes active.
+* **Download Manager Compatible:** Works flawlessly with external download managers like IDM, FDM (Free Download Manager), or JDownloader. Hands over the final file directly to your app.
+* **Bulk Download Friendly:** Perfect for downloading multi-part archives (e.g., 100+ parts). Just middle-click the links to open them in new tabs and sit back while the script does the work.
 
-## 🛠️ Kurulum
+## 🛠️ Installation
 
-1. Tarayıcınıza [Tampermonkey](https://www.tampermonkey.net/) (veya Violentmonkey) eklentisini kurun.
-2. Eklenti menüsüne tıklayıp **"Yeni script ekle" (Create a new script)** seçeneğini seçin.
-3. Ekrana gelen metin editöründeki tüm yazıları silin ve bu projedeki kodu oraya yapıştırın.
-4. **Dosya -> Kaydet (Ctrl + S)** diyerek kaydedin.
-5. Hazırsınız! Eklentinin açık (Aktif) olduğundan emin olun.
+1. Install the [Tampermonkey](https://www.tampermonkey.net/) (or Violentmonkey) extension for your browser.
+2. Click the extension icon and select **"Create a new script"**.
+3. Delete all the default text in the editor and paste the code provided in this repository.
+4. Go to **File -> Save** (or press `Ctrl + S`).
+5. You are all set! Make sure the script is enabled in your Tampermonkey dashboard.
 
-## 📝 Kullanım
+## 📝 Usage
 
-Ekstra hiçbir ayar yapmanıza gerek yoktur. Herhangi bir DataNodes indirme bağlantısını (örneğin `datanodes.to/..` uzantılı bir link) açtığınızda script arka planda devreye girer. Tüm sahte pencereleri ve sayaçları geçip asıl dosyayı indirene kadar işlemleri sizin yerinize yapar.
+No extra configuration is required. Whenever you open a DataNodes download link (e.g., `datanodes.to/...`), the script will automatically run in the background, wait for the timers, and trigger the final download for you. 
 
 ---
-**Geliştirici:** Active7555
+**Author:** Active7555
